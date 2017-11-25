@@ -1,27 +1,24 @@
-﻿using HoloToolkit.Unity.InputModule;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using HoloToolkit.Unity.InputModule;
 using UnityEngine;
-using System;
 
-/// <summary>
-/// AirTapされる側のオブジェクトにつける
-/// </summary>
-public class AirTapGesture : MonoBehaviour {
+public class AirTapGesture : MonoBehaviour,IInputClickHandler{
 
     // Use this for initialization
-    void Start() {
+    void Start(){
 
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update(){
 
     }
 
-    void OnInputClicked(InputClickedEventData eventData) {
+    void IInputClickHandler.OnInputClicked(InputClickedEventData eventData)
+    {
         gameObject.AddComponent<Rigidbody>();
     }
 
 }
-
