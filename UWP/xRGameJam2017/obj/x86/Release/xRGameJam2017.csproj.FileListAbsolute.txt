@@ -1,0 +1,2 @@
+C:\Users\rei\Documents\Holo-in-GameJam\UWP\xRGameJam2017\obj\x86\Release\xRGameJam2017.csprojResolveAssemblyReference.cache
+C:\Users\rei\Documents\Holo-in-GameJam\UWP\xRGameJam2017\obj\x86\Release\xRGameJam2017.csproj.CoreCompileInputs.cache

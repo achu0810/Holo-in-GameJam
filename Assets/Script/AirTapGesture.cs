@@ -9,18 +9,19 @@ using System;
 /// </summary>
 public class AirTapGesture : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // Use this for initialization
+    void Start() {
 
-    public void OnInputClicked(InputEventData eventData) {
+    }
+
+    // Update is called once per frame
+    void Update() {
+
+    }
+
+    void OnInputClicked(InputClickedEventData eventData) {
         gameObject.AddComponent<Rigidbody>();
     }
 
 }
+
